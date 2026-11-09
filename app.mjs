@@ -16,13 +16,13 @@ function query(date) {
 async function loadClass() {
   const token = ++request;
   $('schedule').replaceChildren();
-  $('download').removeAttribute('href');
   schedule = new Map();
-  const days = await json('./schedule-' + year.id + '-' + state.classId + '.json');
+  const grade = state.classId.match(/^[A-Z]+\d+/)?.[0];
+  if (!grade) throw Error('Invalid class');
+  const days = await json(`./data/${year.id}/${grade}/${state.classId}_schedule.json`);
   if (token !== request) return;
   $('error').hidden = true;
   schedule = new Map(days.map(day => [day.date,day]));
-  $('download').href = './calendar-' + year.id + '-' + state.classId + '.ics';
   render();
 }
 
@@ -202,7 +202,7 @@ function showError() {
   $('error').hidden = false;
 }
 try {
-  catalog = await json('./catalog.json');
+  catalog = await json('./data/catalog.json');
   await loadYear();
   $('app').hidden = false;
 } catch { showError(); }

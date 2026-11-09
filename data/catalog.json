@@ -1,0 +1,15 @@
+{
+  "years": [
+    {
+      "id": "2026-2027",
+      "start": "2026-09-08",
+      "end": "2027-06-16",
+      "timezone": "America/Toronto",
+      "classes": [
+        "L1A",
+        "L1B",
+        "L1C"
+      ]
+    }
+  ]
+}
