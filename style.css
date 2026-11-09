@@ -1,0 +1,64 @@
+:root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #222; background: #fff; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+main { max-width: 42rem; margin: 0 auto; padding: 2rem 1.25rem; }
+header, .toolbar, .navigation { display: flex; align-items: center; gap: .65rem; flex-wrap: wrap; }
+header, .toolbar { justify-content: space-between; }
+header { padding-bottom: 1rem; border-bottom: 1px solid #ddd; }
+h1 { font-size: 1.5rem; margin: 0; }
+h2 { font-size: 1.125rem; margin: 0; }
+.toolbar { margin: 1.25rem 0 .65rem; }
+label { display: flex; align-items: center; gap: .45rem; }
+.view-label { font-size: .875rem; }
+button, select, input { font: inherit; color: inherit; background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: .35rem .55rem; min-height: 2.35rem; }
+button, select { cursor: pointer; }
+button:disabled { opacity: .4; cursor: default; }
+:focus-visible { outline: 2px solid #245b9c; outline-offset: 2px; }
+.navigation { margin-bottom: 1.15rem; }
+.navigation input { max-width: 100%; }
+ol { list-style: none; margin: 0; padding: 0; border-top: 1px solid #ddd; }
+li { display: grid; grid-template-columns: minmax(7.3rem, 34%) 1fr; gap: .5rem; padding: .85rem 0; border-bottom: 1px solid #ddd; }
+time { font-weight: 600; }
+.outfit { font-weight: 600; }
+.emoji { margin-right: .35rem; }
+.note { margin: .15rem 0 0; color: #555; font-size: .875rem; }
+footer { margin-top: 1.15rem; font-size: .875rem; }
+a { color: #245b9c; text-underline-offset: .2em; }
+.kind-none { background: #fff2f2; }
+.kind-none .outfit { color: #9b2525; }
+.kind-civvies { background: linear-gradient(90deg, #ffeded, #fff5e4, #fdfbe5, #edf8ed, #edf3ff, #f5edff); }
+.kind-none, .kind-civvies { padding-inline: .5rem; }
+
+/* A small block-game palette, with the outfit colours left intact. */
+:root { color: #272d23; background: #e8ecd9; font-family: ui-monospace, "Cascadia Mono", "DejaVu Sans Mono", monospace; }
+main { max-width: 46rem; margin: clamp(.75rem, 4vw, 2.5rem) auto; padding: clamp(.75rem, 3vw, 1.5rem); background: #fffdf4; border: 3px solid #384335; box-shadow: 5px 5px 0 #a1ab8d; }
+header { border-bottom: 3px solid #596e4d; }
+.brand { display: flex; align-items: center; gap: .75rem; }
+.grass-block { display: block; flex: 0 0 24px; height: 24px; border: 2px solid #384335; background: linear-gradient(#8cbd64 0 25%, #527d42 25% 45%, #a8764c 45% 70%, #80583b 70%); box-shadow: 3px 3px 0 #b5bea5; }
+h1 { font-size: clamp(1.08rem, 4vw, 1.45rem); letter-spacing: -.045em; }
+button, select, input { border: 2px solid #647359; border-radius: 0; background: #f5f6ea; }
+button { box-shadow: 2px 2px 0 #adb69e; }
+button:not(:disabled):hover { background: #dce8c9; }
+button:not(:disabled):active { transform: translate(2px, 2px); box-shadow: none; }
+a { color: #385731; }
+ol, li { border-color: #d2d8c4; }
+.month-grid { table-layout: fixed; width: 100%; border-collapse: collapse; border: 2px solid #596e4d; }
+.month-grid th { background: #dce8c9; font-size: .8rem; padding: .4rem .1rem; }
+.month-grid th, .month-grid td { border: 1px solid #aeb9a1; }
+.month-grid td { height: clamp(3.2rem, 11vw, 4.4rem); padding: .18rem; text-align: center; vertical-align: top; }
+.month-grid time { display: block; width: fit-content; min-width: 1.45rem; margin: 0 auto; font-size: .8rem; }
+.month-grid time[aria-current="date"] { color: #fff; background: #45643c; }
+.month-grid .outside-month { box-shadow: inset 0 0 0 100px #293b241f; color: #515a49; }
+.month-grid .quiet-day { background: #f1f2e7; }
+.month-emoji { display: block; font-size: clamp(.95rem, 4vw, 1.4rem); line-height: 1.5; }
+@media (max-width: 48rem) { main { margin-inline: .75rem; } }
+
+select {
+  appearance: none;
+  padding-inline-end: 2rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='m2 4 4 4 4-4' fill='none' stroke='%23384335' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right .55rem center;
+  background-size: .75rem;
+}

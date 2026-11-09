@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BVG Fit · Uniform schedule</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand"><span class="grass-block" aria-hidden="true"></span><h1>Uniform schedule</h1></div>
+      <label>Class <select id="class-select"></select></label>
+    </header>
+    <p id="loading" role="status">Loading calendar…</p>
+    <p id="error" role="alert" hidden></p>
+    <section id="app" hidden aria-labelledby="period">
+      <div class="toolbar">
+        <h2 id="period"></h2>
+        <label class="view-label">View <select id="view"><option value="week">Week</option><option value="month">Month</option></select></label>
+      </div>
+      <div class="navigation">
+        <button id="prev" aria-label="Previous period">←</button>
+        <button id="today">Today</button>
+        <button id="next" aria-label="Next period">→</button>
+        <input id="date" type="date" aria-label="Jump to date">
+        <select id="year" aria-label="School year" hidden></select>
+      </div>
+      <div id="schedule" aria-live="polite"></div>
+      <footer><a id="download" href="#" download>Download calendar (.ics)</a></footer>
+    </section>
+  </main>
+</body>
+</html>
