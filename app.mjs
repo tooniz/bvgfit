@@ -140,6 +140,21 @@ function monthGrid(start,end) {
       time.setAttribute('aria-label',dateLabel(date,{weekday:'long',month:'long',day:'numeric'}));
       if (date === today) time.setAttribute('aria-current','date');
       cell.append(time);
+      if (day.covered && (day.in_session || day.day_kind === 'closure' || day.notes.length)) {
+        cell.tabIndex = 0;
+        cell.setAttribute('role','button');
+        cell.setAttribute('aria-label', `${dateLabel(date,{weekday:'long',month:'long',day:'numeric'})}, ${day.uniform.label}`);
+        cell.addEventListener('mouseenter', () => showDayDetails(day, cell, false));
+        cell.addEventListener('focus', () => showDayDetails(day, cell, false));
+        cell.addEventListener('click', () => showDayDetails(day, cell, true));
+        cell.addEventListener('keydown', event => {
+          if (event.key === 'Escape') hideDayDetails();
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            showDayDetails(day, cell, true);
+          }
+        });
+      }
       if (show) {
         const emoji = document.createElement('span');
         emoji.className = 'month-emoji';
@@ -153,6 +168,20 @@ function monthGrid(start,end) {
   }
   return table;
 }
+function showDayDetails(day, cell, pinned) {
+  const popup = $('day-details');
+  popup.replaceChildren(row(day));
+  popup.hidden = false;
+  popup.dataset.pinned = String(pinned);
+  const bounds = cell.getBoundingClientRect();
+  popup.style.left = `${Math.max(8, Math.min(bounds.left, innerWidth - popup.offsetWidth - 8))}px`;
+  popup.style.top = `${Math.min(bounds.bottom + 8, innerHeight - popup.offsetHeight - 8)}px`;
+}
+function hideDayDetails() {
+  const popup = $('day-details');
+  popup.hidden = true;
+  popup.dataset.pinned = 'false';
+}
 function render() {
   const [start,end] = period();
   $('view').value = state.view;
@@ -163,7 +192,11 @@ function render() {
     : short(start) + ' – ' + (start.slice(0,7) === end.slice(0,7) ? Number(end.slice(8)) : short(end));
   if (state.view === 'month') {
     $('schedule').replaceChildren(monthGrid(start,end));
+    $('schedule').addEventListener('mouseleave', () => {
+      if ($('day-details').dataset.pinned !== 'true') hideDayDetails();
+    }, {once:true});
   } else {
+    hideDayDetails();
     const days = dateRange(start,end).map(date => query(date))
       .filter(day => day.covered && (day.in_session || day.day_kind === 'closure' || day.notes.length));
     const list = document.createElement('ol');
