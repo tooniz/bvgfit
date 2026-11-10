@@ -18,7 +18,7 @@ button:disabled { opacity: .4; cursor: default; }
 .navigation { margin-bottom: 1.15rem; }
 .navigation input { max-width: 100%; }
 ol { list-style: none; margin: 0; padding: 0; border-top: 1px solid #ddd; }
-li { display: grid; grid-template-columns: minmax(7.3rem, 34%) 1fr; gap: .5rem; padding: .85rem 0; border-bottom: 1px solid #ddd; }
+li { display: grid; grid-template-columns: minmax(7.3rem, 34%) 1fr; gap: .5rem; padding: .85rem .5rem; border-bottom: 1px solid #ddd; }
 time { font-weight: 600; }
 .outfit { font-weight: 600; }
 .emoji { margin-right: .35rem; }
@@ -27,7 +27,6 @@ a { color: #245b9c; text-underline-offset: .2em; }
 .kind-none { background: #fff2f2; }
 .kind-none .outfit { color: #9b2525; }
 .kind-civvies { background: linear-gradient(90deg, #ffeded, #fff5e4, #fdfbe5, #edf8ed, #edf3ff, #f5edff); }
-.kind-none, .kind-civvies { padding-inline: .5rem; }
 
 /* A small block-game palette, with the outfit colours left intact. */
 :root { color: #272d23; background: #e8ecd9; font-family: ui-monospace, "Cascadia Mono", "DejaVu Sans Mono", monospace; }

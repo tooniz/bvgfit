@@ -38,7 +38,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -120,7 +120,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-09-19",
@@ -196,7 +198,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -254,7 +256,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-10-01",
@@ -343,7 +347,7 @@
       "needs_confirmation": false
     },
     "notes": [
-      "Lower School Turkey Trot"
+      "Turkey Trot"
     ]
   },
   {
@@ -414,7 +418,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-10-15",
@@ -559,7 +565,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-10-28",
@@ -589,10 +597,12 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "civvies",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Halloween Civvies Day"
+    ]
   },
   {
     "date": "2026-10-31",
@@ -636,7 +646,9 @@
       "kind": "class",
       "needs_confirmation": true
     },
-    "notes": []
+    "notes": [
+      "Parent-teacher conferences"
+    ]
   },
   {
     "date": "2026-11-04",
@@ -658,7 +670,9 @@
       "kind": "class",
       "needs_confirmation": true
     },
-    "notes": []
+    "notes": [
+      "Parent-teacher conferences"
+    ]
   },
   {
     "date": "2026-11-06",
@@ -669,7 +683,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-11-07",
@@ -739,9 +755,7 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": [
-      "Return library books"
-    ]
+    "notes": []
   },
   {
     "date": "2026-11-13",
@@ -839,7 +853,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-11-21",
@@ -913,7 +929,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -971,7 +987,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-12-03",
@@ -1026,7 +1044,9 @@
       "kind": "class",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Santa visit for BG2–Grade 1"
+    ]
   },
   {
     "date": "2026-12-08",
@@ -1067,10 +1087,12 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Report cards released"
+    ]
   },
   {
     "date": "2026-12-12",
@@ -1103,7 +1125,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2026-12-15",
@@ -1126,7 +1150,7 @@
       "needs_confirmation": false
     },
     "notes": [
-      "Lower School holiday concert"
+      "Holiday concert"
     ]
   },
   {
@@ -1414,7 +1438,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-01-09",
@@ -1488,7 +1514,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -1546,7 +1572,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-01-21",
@@ -1689,7 +1717,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-02-03",
@@ -1721,7 +1751,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -1853,7 +1883,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-02-17",
@@ -1883,7 +1915,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -1963,7 +1995,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-02-27",
@@ -2030,7 +2064,7 @@
       "needs_confirmation": false
     },
     "notes": [
-      "Lower School spring concert"
+      "Spring concert"
     ]
   },
   {
@@ -2039,10 +2073,12 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Report cards released"
+    ]
   },
   {
     "date": "2027-03-06",
@@ -2097,7 +2133,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-03-11",
@@ -2385,7 +2423,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -2432,7 +2470,9 @@
       "kind": "class",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Parent-teacher conferences"
+    ]
   },
   {
     "date": "2027-04-07",
@@ -2443,7 +2483,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-04-08",
@@ -2454,7 +2496,9 @@
       "kind": "class",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Parent-teacher conferences"
+    ]
   },
   {
     "date": "2027-04-09",
@@ -2539,7 +2583,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -2575,7 +2619,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-04-20",
@@ -2685,7 +2731,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-04-30",
@@ -2693,7 +2741,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -2817,7 +2865,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-05-12",
@@ -2847,7 +2897,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -2975,7 +3025,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-05-26",
@@ -3005,7 +3057,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -3085,7 +3137,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly"
+    ]
   },
   {
     "date": "2027-06-05",
@@ -3130,7 +3184,7 @@
       "needs_confirmation": false
     },
     "notes": [
-      "Lower School recognition assembly"
+      "Recognition assembly"
     ]
   },
   {
@@ -3161,7 +3215,7 @@
     "day_kind": "regular",
     "in_session": true,
     "uniform": {
-      "kind": "first_dress",
+      "kind": "class",
       "needs_confirmation": false
     },
     "notes": []
@@ -3221,6 +3275,9 @@
       "kind": "gym",
       "needs_confirmation": false
     },
-    "notes": []
+    "notes": [
+      "Assembly",
+      "Last day of school for Lower and Prep School"
+    ]
   }
 ]

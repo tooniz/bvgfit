@@ -169,8 +169,8 @@ export function createEngine(year) {
     if (day?.kind==='flex') return finish('unknown','unknown','Day 9 instructions needed',[],true);
     if (!base.pe) return finish('unknown','unknown',cls.rotation?'Inferred rotation is switched off':'Class PE timetable not yet confirmed',[],true);
     if (base.pe.scheduled) return finish('gym',base.pe.status,'PE day — gym uniform worn all day',[base.pe.source,policy.source]);
-    if (policy.first_dress_weekdays.includes(weekday(date))) {
-      return finish('first_dress',base.pe.status,'First Dress day without scheduled PE',[policy.first_dress_source || policy.source,base.pe.source]);
+    if (day?.school_day === 8) {
+      return finish('first_dress',base.pe.status,'Day 8 assembly without scheduled PE',[policy.first_dress_source || policy.source,base.pe.source]);
     }
     if (season?.kind==='transition') warnings.push(season.note);
     return finish('class',base.pe.status,'No PE scheduled for this class',[base.pe.source,policy.source,season?.source],!season||season.evidence==='unknown');

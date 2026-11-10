@@ -7,7 +7,7 @@ A static uniform calendar for Bayview Glen Lower School parents. The page offers
 The [BVG 2026–27 JK–Grade 2 uniform guide](https://www.bayviewglen.ca/wp-content/uploads/2026/07/Bayview-Glen-Lower-School-JK-Gr2-Uniforms-202627.pdf) says:
 
 - Gym uniform is worn **all day on scheduled gym days**, which normally occur every second school day.
-- **First Dress is required on Fridays for assembly**, except when the class has gym that day. Thus Friday + gym means gym uniform; Friday + no gym means First Dress, not ordinary class uniform. The current guide still explicitly says “Every Friday throughout the year for Assembly.” A newer school notice would supersede that guide if the practice changes.
+- Assembly takes place on **Day 8**. First Dress is worn for assembly unless the class has PE that day, in which case gym uniform is worn all day. The school uniform guide's Friday assembly rule has been superseded by the confirmed Day 8 schedule.
 - First Dress is also required on orientation day and designated special occasions. The school guide describes class uniform for other non-gym days. Seasonal summer/winter versions affect the clothing items, but the parent-facing calendar labels both simply **Class uniform**.
 
 Apply explicit dated school or class notices before the recurring pattern. In particular, closures show **No school**, a confirmed civvies day shows **Civvies**, and a mandatory First Dress notice such as a photo or special assembly day shows **First Dress**. Do not infer a mandatory First Dress day merely from the presence of a calendar event unless its notice specifies the clothing requirement.
