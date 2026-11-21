@@ -20,7 +20,7 @@ button:disabled { opacity: .4; cursor: default; }
 ol { list-style: none; margin: 0; padding: 0; border-top: 1px solid #ddd; }
 li { display: grid; grid-template-columns: minmax(7.3rem, 34%) 1fr; gap: .5rem; padding: .85rem .5rem; border-bottom: 1px solid #ddd; }
 time { font-weight: 600; }
-li time[aria-current="date"] { padding: 0 .3rem; color: #fff; background: #45643c; }
+li time[aria-current="date"] { padding: 0 .3rem; margin: 0 -.3rem; color: #fff; background: #45643c; }
 .outfit { font-weight: 600; }
 .emoji { margin-right: .35rem; }
 .note { margin: .15rem 0 0; color: #555; font-size: .875rem; }
